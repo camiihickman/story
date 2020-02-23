@@ -198,7 +198,19 @@ h3{
 	background-position: 10% bottom;
 	background-size: cover;
 }
-
+	.navbar{
+		grid-column: 2/3;
+		grid-row: 1/2;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.nav{
+		text-align: right;
+		justify-content: right;
+		line-height: 1.5em;
+		font-size: 24px;
+		padding-right: 20px;
+	}
 
 .homenavbar{
 	display: grid;
